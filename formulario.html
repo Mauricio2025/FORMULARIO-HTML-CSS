@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./formulario.css" media="screen">
+
+    <title>Cadastramento de Vaga !</title> 
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro de Vaga </h1>
+        <p id="subtitulo">Complete suas informações </p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo"> 
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" nome="sobrenome" id="sobrenome"required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="estado civil"><strong>Estado Civil</strong></label>
+            <input type="text" nome="estado civil" id="estado civil" required>
+        </div>
+
+        <div class="campo">
+           <label for="email"><strong>Email</strong></label>
+           <input type="email" nome="email" id="email"required> 
+        </div>
+
+        <div class="campo">
+            <label for="numero"><strong>DDD-Número</strong></label>
+            <input type="tel" nome="numero" id="numero">
+        </div>
+
+
+        <div class="campo">
+          <label><strong>Sexo</strong></label>
+          <label>
+            <input type="radio" name="sexo" value="masculino" checked>Masculino
+          </label>  
+          <label>
+            <input type="radio" name="sexo" value="feminino">Feminino
+          </label>
+          <label >
+            <input type="radio" name="sexo" value="outro">Outro
+          </label>
+        </div>
+
+        <div class="campo">
+            <label for="Estado"><strong>Estado:</strong></label>
+            <select id="Estado">
+            <option selected disabled value="">SELECIONE</option>
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>Amazonas</option>
+            <option>Bahia</option>/
+            <option>Ceará</option>
+            <option>Espírito Santo</option>
+            <option>Maranhão</option>
+            <option>Mato Grosso</option>
+            <option>Mato Grosso do Sul</option>
+            <option>Minas Gerais</option>
+            <option>Pará</option>
+            <option>Paraíba	</option>
+            <option>Paraná</option>
+            <option>Pernambuco</option>
+            <option>Piauí</option>
+            <option>Rio de Janeiro</option>
+            <option>Rio Grande do Norte</option>
+            <option>Rio Grande do Sul</option>
+            <option>Rondônia</option>
+            <option>Santa Catarina</option>
+            <option>São Paulo</option>
+            </select>
+	    </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Selecione cursos que você tenha :</strong></label><br><br>
+                <input type="checkbox" name="curso1" id="curso1"  value="Informática">
+                <label for="curso1">Curso de Tecnológia</label>
+                <input type="checkbox" name="curso2" id="curso2" value="Administração">
+                <label for="curso2">Curso da Aréa Administrativa</label>
+                <input type="checkbox" name="curso3" id="curso3" value="Medicina">
+                <label for="curso3">Curso da Aréa de Medicina</label>
+                <input type="checkbox" name="curso4" id="curso4"value="Outros">
+                <label for="curso4">Outros</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label><strong>Conte um pouco da sua experiência:</strong></label>
+            <textarea row="6" style="width: 26em" id="experiência" name="experiência"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+    </form>
+</body>
+</html>
