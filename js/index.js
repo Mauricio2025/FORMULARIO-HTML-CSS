@@ -1,3 +1,4 @@
 function botaofinal(){
-    alert("FORMULÁRIO CADASTRADO COM SUCESSO")
+    alert("FORMULÁRIO CADASTRADO COM SUCESSO");
+    return
 }

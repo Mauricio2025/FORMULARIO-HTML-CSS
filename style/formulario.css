@@ -26,6 +26,12 @@ body{
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+    padding: 20px;
+  
+
+    min-width: 170px;
+    max-width: 1400px;
+    margin: 100;
 }
 
 input, select, textarea, button{
@@ -45,6 +51,7 @@ input, select, textarea, button{
 fieldset.grupo .campo{
     float: left;
     margin-right: 1em;
+    
 }
 
 .campo input[type="text"], .campo input[type="email"],.campo input[type="tel"],.campo select, .campo textarea {
@@ -92,16 +99,13 @@ fieldset.grupo .campo{
 }
 
 .mauricio-logo{
-    width: 40px;
+    width: 50px;
     position: absolute;
     top: 10px;
     right: 10px;
+    
 }
 img{
     overflow-clip-margin: content-box;
     overflow: clip;
-}
-a:webkit-any-link{
-    color: -webkit-link;
-    cursor: pointer;
 }

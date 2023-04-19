@@ -8,7 +8,7 @@
     <script src="./js/index.js"></script>
     <link rel="website icon" type="png" href="./fotos/formulario-de-contato.png">
 
-    <title>Cadastramento de Pessoas!</title> 
+    <title>Cadastramento de Pessoas</title> 
 </head>
 <body>
     <div>
@@ -29,20 +29,29 @@
             </div>
         </fieldset>
 
+        <fieldset class="grupo"> 
         <div class="campo">
             <label for="estado civil"><strong>Estado Civil</strong></label>
             <input type="text" nome="estado civil" id="estado civil" required>
         </div>
 
         <div class="campo">
-           <label for="email"><strong>Email</strong></label>
-           <input type="email" nome="email" id="email"required> 
+           <label for="email"><strong>Data de Nascimento</strong></label>
+           <input type="tel" nome="Data" id="numero"required> 
         </div>
+        </fieldset>
 
+        <fieldset class="grupo">
         <div class="campo">
             <label for="numero"><strong>DDD+Número</strong></label>
             <input type="tel" nome="numero" id="numero">
         </div>
+
+        <div class="campo">
+            <label for="numero"><strong>E-mail</strong></label>
+            <input type="email" nome="email" id="email">
+        </div>
+        </fieldset>
 
         <div id="icone"></div>
         <a href="http://mauricio2025.github.io/Portfolio-Mauricio/" target="_blank">
